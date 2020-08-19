@@ -392,6 +392,16 @@ Warnings point out something that could cause harm if ignored.
 {{< /warning >}}
 
 
+vi ~/.vimrc
+
+autocmd FileType yaml 
+setlocal et ts=2 ai sw=2 nu sts=0
+set cursorline
+set ruler
+syntax on
+filetype indent plugin on
+:colorscheme desert
+
 
 ## Includes
 
